@@ -10,16 +10,18 @@
 }
 
 body {
-    background-color: blue;
+    background-image: url(./fotos/fotobalao.png);
 }
 
 div {
     color: white;
+    width: 500px;
+   
+    
 
 }
 
 .corpo{
  color: red;
-
 }
 
