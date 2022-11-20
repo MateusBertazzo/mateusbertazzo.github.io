@@ -1,17 +1,22 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
     margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
-    font-family: sans-serif
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-
-.fundo{
+#pag02{
     background-image: url(fotos/fotobalao.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
+
+}
+
+body {
+    background-image: url(fotos/fotobalao.png);
 }
 
 nav {
@@ -24,8 +29,9 @@ nav {
 }
 
 nav h2 {
+    font-size: 4em;
     color: white;
-    font-size: 40px;
+    font-size: 3em;
     cursor: pointer;
     letter-spacing: 2px;    
 }
@@ -39,39 +45,142 @@ nav ul li {
     display: inline-block;
     padding: 10px 25px;
     list-style-type: none;
+    font-size: 1.5em;
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    text-transform: capitalize;
+   
 }
 
 nav ul li a:hover {
     color: red;
 }
 
-.minhasinfos {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50);
+/* sobre mim apartir daqui */
+
+
+#sobre-mim {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin left: auto;
+    width: 800px;
 }
 
-h4 {
+.mateus {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.nome {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
     color: white;
-    letter-spacing: 2px;
+    padding-bottom: 25px;
+    margin-left: 10%;
+}
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+    margin-left: 10%;
+}
+
+.quem-sou-eu {
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.convite {
+    margin-top: 30px;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 30%;
+    gap: 30px;
+}
+
+.link {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.linkedin {
+    color: #0073B1;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+.instagram {
+    color: #B523A8;
+}
+
+.instagram:hover {
+    color: #7F35B8;
+}
+
+.github {
+    color: #F7F7F7;
+}
+
+.github:hover {
+    color: grey;
+}
+
+/* QUALIDADES*/
+
+#traits {
+    color: white;
+    display: flex;
+    gap: 100px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+    justify-content: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+
+}
+
+#caracteristicas-pessoais {
     font-size: 20px;
 }
 
-h1 {
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 75px;
+#caracteristicas-profissionais {
+    font-size: 20px;
 }
 
-h3 {
-    color: white;
-    font-size: 35px;
+.pessoal {
+    color: red;
+    font-weight: bolder;
+}
+
+.profissional {
+    color: red;
 }
