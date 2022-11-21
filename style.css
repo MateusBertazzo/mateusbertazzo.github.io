@@ -66,8 +66,8 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin left: auto;
-    width: 800px;
+    width: 400px;
+    
 }
 
 .mateus {
