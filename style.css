@@ -156,6 +156,10 @@ nav ul li a:hover {
     margin-left: 100px;
 }
 
+#caracteristicas-pessoais ul {
+    list-style: square;
+}
+
 
 .titulo {
     font-family: 'Roboto', sans-serif;
