@@ -5,7 +5,6 @@
 
 * {
     margin: 0;
-    
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -25,7 +24,7 @@ nav {
     justify-content: space-between;
     padding: 45px;
     padding-left: 8%;
-    padding-right: 8%;    
+    padding-right: 8%;  
 }
 
 nav h1 {
@@ -33,12 +32,11 @@ nav h1 {
     color: white;
     font-size: 3em;
     cursor: pointer;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
 
 span {
     color: red;
-
 }
 
 nav ul li {
@@ -52,7 +50,6 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-   
 }
 
 nav ul li a:hover {
@@ -67,7 +64,7 @@ nav ul li a:hover {
     flex-direction: column;
     text-align: left;
     width: 400px;
-    
+
 }
 
 .mateus {
@@ -159,7 +156,6 @@ nav ul li a:hover {
 #caracteristicas-pessoais ul {
     list-style: square;
 }
-
 
 .titulo {
     font-family: 'Roboto', sans-serif;
