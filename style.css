@@ -188,3 +188,21 @@ nav ul li a:hover {
 .profissional {
     color: red;
 }
+
+/* FOOTER */
+
+#rodape p{
+    border-style: solid;
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#rodape span {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
